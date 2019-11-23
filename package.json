@@ -1,0 +1,22 @@
+{
+  "name": "typeorm-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carlton Joseph <carlton.joseph@gmail.com> (http://carltonjoseph.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "1.18.3",
+    "pg": "7.14.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.20"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.12",
+    "nodemon": "2.0.1",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  }
+}
